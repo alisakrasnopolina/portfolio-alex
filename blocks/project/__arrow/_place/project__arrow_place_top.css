@@ -1,0 +1,6 @@
+.project__arrow_place_top {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  transform: rotate(180deg);
+}

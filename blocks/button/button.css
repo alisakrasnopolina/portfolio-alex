@@ -1,0 +1,20 @@
+.button {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #202020;
+  background: rgba(100, 134, 221, 0.5) ;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 80px;
+  right: 80px;
+  cursor: pointer;
+  padding: 78px 63px;
+  box-sizing: border-box;
+  z-index: 1;
+}

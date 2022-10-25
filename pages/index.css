@@ -1,0 +1,49 @@
+/* header */
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/inter.css);
+@import url(../blocks/root/root.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__intro/header__intro.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__item/header__item.css);
+@import url(../blocks/header/__link/header__link.css);
+
+/* intro */
+@import url(../blocks/content/content.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/hover-arrow/hover-arrow.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__button/intro__button.css);
+@import url(../blocks/intro/__arrow/intro__arrow.css);
+@import url(../blocks/button/button.css);
+
+/* project */ 
+@import url(../blocks/wrapper/_theme/wrapper_theme_black.css);
+@import url(../blocks/wrapper/_theme/wrapper_theme_dark-grey.css);
+@import url(../blocks/wrapper/_theme/wrapper_theme_light-grey.css);
+@import url(../blocks/project/project.css);
+@import url(../blocks/project/_theme/project_theme_black.css);
+@import url(../blocks/project/_theme/project_theme_grey.css);
+@import url(../blocks/project/_theme/project_theme_white.css);
+@import url(../blocks/project/__arrow/project__arrow.css);
+@import url(../blocks/project/__arrow/_place/project__arrow_place_bottom.css);
+@import url(../blocks/project/__arrow/_place/project__arrow_place_top.css);
+@import url(../blocks/project/__logo/project__logo.css);
+@import url(../blocks/project/__logo/_brand/project__logo_brand_chery.css);
+@import url(../blocks/project/__logo/_brand/project__logo_brand_cadillac.css);
+@import url(../blocks/project/__logo/_brand/project__logo_brand_mazda.css);
+@import url(../blocks/project/__title/project__title.css);
+@import url(../blocks/project/__title/_theme/project__title_theme_grey.css);
+@import url(../blocks/project/__title/_theme/project__title_theme_white.css);
+@import url(../blocks/project/__description/project__description.css);
+@import url(../blocks/project/__paragraph/project__paragraph.css);
+@import url(../blocks/project/__paragraph/_theme/project__paragraph_theme_grey.css);
+@import url(../blocks/project/__paragraph/_theme/project__paragraph_theme_white.css);
+@import url(../blocks/project/__caption/project__caption.css);
+@import url(../blocks/project/__text/project__text.css);
+@import url(../blocks/project/__button/project__button.css);
+@import url(../blocks/project/__button/_theme/project__button_theme_grey.css);
+@import url(../blocks/project/__button/_theme/project__button_theme_white.css);
+@import url(../blocks/project/__link/project__link.css);

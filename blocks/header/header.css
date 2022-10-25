@@ -1,0 +1,18 @@
+.header {
+  font-family: 'Poppins', Arial, sans-serif;
+  width: calc(100% - 2 * 80px);
+  margin: 0 auto;
+  padding: 60px 0 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFF;
+  align-items: center;
+  position: relative;
+}
+
+@media screen and (min-width: 1920px) {
+  .header {
+    max-width: 1920px;
+    box-sizing: border-box;
+  }
+}

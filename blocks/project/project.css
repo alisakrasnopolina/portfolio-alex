@@ -1,0 +1,19 @@
+.project {
+  gap: 60px;
+  min-height: 100vh;
+  margin: auto;
+  font-family: 'Poppins', Arial, sans-serif;
+  display: flex;
+  padding-left: 376px;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+
+}
+
+@media screen and (min-width: 1920px) {
+  .project {
+    max-width: 1920px;
+    box-sizing: border-box;
+  }
+}

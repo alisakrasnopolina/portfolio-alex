@@ -1,0 +1,4 @@
+.project__description {
+  display: flex;
+  flex-direction: row;
+}
