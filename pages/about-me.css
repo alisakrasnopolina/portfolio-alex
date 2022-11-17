@@ -1,0 +1,28 @@
+/* header */
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/inter.css);
+@import url(../blocks/root/root.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__intro/header__intro.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__item/header__item.css);
+@import url(../blocks/header/__link/header__link.css);
+
+/* about */
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__arrow/about__arrow.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__paragraph/about__paragraph.css);
+@import url(../blocks/about/__subtitle/about__subtitle.css);
+@import url(../blocks/about/__text/about__text.css);
+@import url(../blocks/about/__button/about__button.css);
+
+/* thanks */
+@import url(../blocks/thanks/thanks.css);
+@import url(../blocks/thanks/__background/thanks__background.css);
+@import url(../blocks/thanks/__background/_place/thanks__background_place_about-me.css);
+@import url(../blocks/thanks/__title/thanks__title.css);
+@import url(../blocks/thanks/__button/thanks__button.css);
+@import url(../blocks/thanks/__button/_place/thanks__button_place_about-me.css);

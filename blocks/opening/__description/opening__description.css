@@ -1,0 +1,5 @@
+.opening__description {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 80px;
+}

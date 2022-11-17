@@ -7,3 +7,9 @@
   color: #202020;
   margin: 0 40px 0 0;
 }
+
+@media screen and (max-width: 1680px) {
+  .header__title {
+    font-size: 20px;
+  }
+}

@@ -4,3 +4,9 @@
   left: 80px;
   transform: rotate(180deg);
 }
+
+@media screen and (max-width: 1680px) {
+  .project__arrow_place_top {
+    top: 60px;
+  }
+}

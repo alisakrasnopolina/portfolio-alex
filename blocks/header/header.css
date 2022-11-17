@@ -10,9 +10,15 @@
   position: relative;
 }
 
+@media screen and (max-width: 1680px) {
+  .header {
+    padding: 40px 0 0;
+  }
+}
+
 @media screen and (min-width: 1920px) {
   .header {
-    max-width: 1920px;
+    max-width: 1760px;
     box-sizing: border-box;
   }
 }

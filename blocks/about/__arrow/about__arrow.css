@@ -1,0 +1,6 @@
+.about__arrow {
+  position: absolute;
+  top: 143px;
+  left: 80px;
+  transform: rotate(90deg);
+}

@@ -1,0 +1,45 @@
+/* header */
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/inter.css);
+@import url(../blocks/root/root.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__intro/header__intro.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__item/header__item.css);
+@import url(../blocks/header/__link/header__link.css);
+
+/* opening */
+@import url(../blocks/opening/opening.css);
+@import url(../blocks/opening/__arrow/opening__arrow.css);
+@import url(../blocks/opening/__title/opening__title.css);
+@import url(../blocks/opening/__description/opening__description.css);
+@import url(../blocks/opening/__paragraph/opening__paragraph.css);
+@import url(../blocks/opening/__caption/opening__caption.css);
+@import url(../blocks/opening/__text/opening__text.css);
+
+/* pics */
+@import url(../blocks/pics/pics.css);
+@import url(../blocks/pics/__pic/pics__pic.css);
+@import url(../blocks/pics/__pic/_col/pics__pic_col_1.css);
+@import url(../blocks/pics/__pic/_col/pics__pic_col_4.css);
+
+/* description */
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/__wrap/description__wrap.css);
+@import url(../blocks/description/__paragraph/description__paragraph.css);
+@import url(../blocks/description/__caption/description__caption.css);
+@import url(../blocks/description/__text/description__text.css);
+
+/* exit */
+@import url(../blocks/exit/exit.css);
+@import url(../blocks/exit/__button/exit__button.css);
+@import url(../blocks/exit/__arrow/exit__arrow.css);
+
+/* thanks */
+@import url(../blocks/thanks/thanks.css);
+@import url(../blocks/thanks/__background/thanks__background.css);
+@import url(../blocks/thanks/__background/_place/thanks__background_place_chery.css);
+@import url(../blocks/thanks/__title/thanks__title.css);
+@import url(../blocks/thanks/__button/thanks__button.css);

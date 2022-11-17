@@ -1,18 +1,23 @@
 .intro {
-  min-height: 92vh;
+  min-height: calc(100vh - 84px);
   margin: auto;
   font-family: 'Poppins', Arial, sans-serif;
   background-color: #FFF;
   display: flex;
-  padding-left: 376px;
+  padding-left: 20%;
   flex-direction: column;
   justify-content: center;
   position: relative;
 }
 
+@media screen and (max-width: 1680px) {
+  .intro {
+    min-height: calc(100vh - 60px);
+  }
+}
+
 @media screen and (min-width: 1920px) {
   .intro {
-    height: 95vh;
     max-width: 1920px;
     box-sizing: border-box;
   }

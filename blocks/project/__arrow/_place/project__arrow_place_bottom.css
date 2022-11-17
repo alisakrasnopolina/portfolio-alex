@@ -3,3 +3,9 @@
   bottom: 80px;
   left: 80px;
 }
+
+@media screen and (max-width: 1680px) {
+  .project__arrow_place_bottom {
+    bottom: 60px;
+  }
+}

@@ -7,3 +7,9 @@
   max-width: 872px;
   margin: 0;
 }
+
+@media screen and (max-width: 1680px) {
+  .project__title {
+    font-size: 68px;
+  }
+}

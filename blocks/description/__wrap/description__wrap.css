@@ -1,0 +1,5 @@
+.description__wrap {
+  display: flex;
+  flex-direction: row;
+  margin: 120px 0 80px;
+}

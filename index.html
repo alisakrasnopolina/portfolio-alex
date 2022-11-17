@@ -6,9 +6,44 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <link rel="stylesheet" href="pages/index.css">
 </head>
-<body class="root">
-  <a name="intro"></a>
-  <header class="header">
+<body class="root"> 
+  <div id="popup-disney" class="popup popup_name_1">
+    <div class="popup__content">
+      <button class="popup__close" id="popup__close-1" type="button"></button>
+      <button class="popup__arrow popup__arrow_direction_left" id="popup__arrow_direction_left-1" type="button"></button>
+      <div class="popup__description">
+        <h2 class="popup__title">Disney in&nbsp;Russia</h2>
+        <p class="popup__text">Corporate website</p>
+        <p class="popup__date">The Walt Disney Company CIS LLC, 2016</p>
+      </div>
+      <button class="popup__arrow popup__arrow_direction_right" id="popup__arrow_direction_right-1" type="button"></button>
+    </div>
+  </div>
+  <div id="popup-renault" class="popup popup_name_2">
+    <div class="popup__content">
+      <button class="popup__close" id="popup__close-2" type="button"></button>
+      <button class="popup__arrow popup__arrow_direction_left" id="popup__arrow_direction_left-2" type="button"></button>
+      <div class="popup__description">
+        <h2 class="popup__title">Play with&nbsp;Renault</h2>
+        <p class="popup__text">Game design for Renault Sandero promotional. Four games: Parking, Trunk Puzzle, Transit and Traffic</p>
+        <p class="popup__date">Renault Russia, 2011</p>
+      </div>
+      <button class="popup__arrow popup__arrow_direction_right" id="popup__arrow_direction_right-2" type="button"></button>
+    </div>
+  </div>
+  <div id="popup-renault" class="popup popup_name_3">
+    <div class="popup__content">
+      <button class="popup__close" id="popup__close-3" type="button"></button>
+      <button class="popup__arrow popup__arrow_direction_left" id="popup__arrow_direction_left-3" type="button"></button>
+      <div class="popup__description">
+        <h2 class="popup__title">Touch the&nbsp;new Mazda</h2>
+        <p class="popup__text">Presentation of new Mazda CX-9 model for large touch screens installed in malls, airports, etc.</p>
+        <p class="popup__date">Mazda Motor Rus, 2017</p>
+      </div>
+      <button class="popup__arrow popup__arrow_direction_right" id="popup__arrow_direction_right-3" type="button"></button>
+    </div>
+  </div>
+  <header id="intro" class="header">
     <div class="header__intro">
       <h1 class="header__title">Alexey Krasnopolin</h1>
       <p class="header__subtitle">UX/UI Designer</p>
@@ -16,19 +51,19 @@
     <nav>
       <ul class="header__menu">
         <li class="header__item">
-          <a href="#" target="_blank" class="header__link">About me</a>
+          <a href="./about-me.html" class="header__link">About me</a>
         </li>
         <li class="header__item">
-          <a href="#" target="_blank" class="header__link">Linkedin</a>
+          <a href="#" class="header__link">Linkedin</a>
         </li>
         <li class="header__item">
-          <a href="#" target="_blank" class="header__link">nekropolin@gmail.com</a>
+          <a href="#" class="header__link">nekropolin@gmail.com</a>
         </li>
       </ul>
     </nav>
   </header>
   <main class="content">
-    <a href="#" target="_blank" class="button">or some random</a>
+    <button type="button" class="button">or some random</button>
     <section class="intro">
       <p class="intro__title">Passionate about tidying up the things.</p>
       <a class="intro__button">Latest stories</a>
@@ -36,8 +71,7 @@
         <img src="./images/arrow__black.svg" alt="arrow logo" class="intro__arrow hover-arrow">
       </a>
     </section>
-    <a name="chery"></a>
-    <div class="wrapper_theme_black">
+    <div id="chery" class="wrapper_theme_black">
       <section class="project project_theme_black">
         <a href="#intro">
           <img src="./images/arrow__white.svg" alt="logo of arrow" class="project__arrow project__arrow_place_top hover-arrow">
@@ -54,14 +88,13 @@
             <p class="project__text">Design system aimed at quick and easy production and further support of brand and dealer sites and services</p>
           </div>
         </div>
-        <a href="#" target="_blank" class="project__button project__button_theme_white">Story overview</a>
+        <a href="./story-chery.html" class="project__button project__button_theme_white">Story overview</a>
         <a href="#cadillac">
           <img src="./images/arrow__white.svg" alt="logo of arrow" class="project__arrow project__arrow_place_bottom hover-arrow">
         </a>
       </section>
     </div>
-    <a name="cadillac"></a>
-    <div class="wrapper_theme_light-grey">
+    <div id="cadillac" class="wrapper_theme_light-grey">
       <section class="project project_theme_white">
         <a href="#chery" >
           <img src="./images/arrow__black.svg" alt="logo of arrow" class="project__arrow project__arrow_place_top hover-arrow">
@@ -78,14 +111,13 @@
             <p class="project__text">A full-featured service that allows to transfer the entire process online. Now you can choose and buy a car without leaving your home.</p>
           </div>
         </div>
-        <a href="#" target="_blank" class="project__button project__button_theme_grey">Story overview</a>
+        <a href="#" class="project__button project__button_theme_grey">Story overview</a>
         <a href="#mazda">
           <img src="./images/arrow__black.svg" alt="logo of arrow" class="project__arrow project__arrow_place_bottom hover-arrow">
         </a>
       </section>
     </div>
-    <a name="mazda"></a>
-    <div class="wrapper_theme_dark-grey">
+    <div id="mazda" class="wrapper_theme_dark-grey">
       <section class="project project_theme_grey">
         <a href="#cadillac">
           <img src="./images/arrow__white.svg" alt="logo of arrow" class="project__arrow project__arrow_place_top hover-arrow">
@@ -102,9 +134,10 @@
             <p class="project__text">A complete redesign with new informational structure and functions according to a new guidelines of Mazda brand</p>
           </div>
         </div>
-        <a href="#" target="_blank" class="project__button project__button_theme_white">Story overview</a>
+        <a href="#" class="project__button project__button_theme_white">Story overview</a>
       </section>
     </div>
   </main>
+  <script src="./scripts/index.js"></script>
 </body>
 </html>

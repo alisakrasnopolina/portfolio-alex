@@ -1,0 +1,9 @@
+.popup__date {
+  opacity: 0.5;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 0;
+}

@@ -2,6 +2,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/inter.css);
 @import url(../blocks/root/root.css);
+@import url(../blocks/root/_scroll/root_scroll_lock.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__intro/header__intro.css);
 @import url(../blocks/header/__title/header__title.css);
@@ -47,3 +48,20 @@
 @import url(../blocks/project/__button/_theme/project__button_theme_grey.css);
 @import url(../blocks/project/__button/_theme/project__button_theme_white.css);
 @import url(../blocks/project/__link/project__link.css);
+
+/* popup */
+@import url(../blocks/main-popup/main-popup.css);
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/_name/popup_name_1.css);
+@import url(../blocks/popup/_name/popup_name_2.css);
+@import url(../blocks/popup/_name/popup_name_3.css);
+@import url(../blocks/popup/__content/popup__content.css);
+@import url(../blocks/popup/__description/popup__description.css);
+@import url(../blocks/popup/__close/popup__close.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/__text/popup__text.css);
+@import url(../blocks/popup/__date/popup__date.css);
+@import url(../blocks/popup/__arrow/popup__arrow.css);
+@import url(../blocks/popup/__arrow/_direction/popup__arrow_direction_left.css);
+@import url(../blocks/popup/__arrow/_direction/popup__arrow_direction_right.css);

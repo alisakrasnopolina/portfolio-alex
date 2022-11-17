@@ -1,0 +1,13 @@
+.popup__close {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  background-image: url(../../../images/cross__popup.svg);
+  background-size: contain;
+  cursor: pointer;
+}

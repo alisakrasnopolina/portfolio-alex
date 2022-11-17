@@ -1,0 +1,4 @@
+.popup__arrow_direction_left {
+  transform: rotate(90deg);
+  margin-left: 24px;
+}

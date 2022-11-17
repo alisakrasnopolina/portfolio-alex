@@ -9,4 +9,33 @@
   height: 62px;
   padding: 20px 40px;
   box-sizing: border-box;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+}
+.project__button:hover::before{
+  width: 100%;
+  color: black;
+ }
+.project__button:before {
+	content:'';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 58px;
+	background: rgba(255,255,255,0.3);
+	border-radius: 30px;
+	transition: all 2s ease;
+  z-index: 0;
+}
+
+
+@media screen and (max-width: 1680px) {
+  .project__button {
+    font-size: 16px;
+    width: 200px;
+    height: 60px;
+  }
 }

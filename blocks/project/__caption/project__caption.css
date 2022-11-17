@@ -4,5 +4,11 @@
   line-height: 1;
   letter-spacing: 0em;
   text-align: left;
-  margin-bottom: 28px;
+  margin: 0 0 28px;
+}
+
+@media screen and (max-width: 1680px) {
+  .project__caption {
+    font-size: 20px;
+  }
 }

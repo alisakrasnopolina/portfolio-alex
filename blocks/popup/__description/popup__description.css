@@ -1,0 +1,12 @@
+.popup__description {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0px 0px 40px rgba(32, 32, 32, 0.2);
+  color: #202020;
+  width: 576px;
+  align-items: center;
+  padding: 60px;
+  box-sizing: border-box;
+}

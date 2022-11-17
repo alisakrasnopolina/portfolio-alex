@@ -1,0 +1,17 @@
+.opening {
+  gap: 80px;
+  margin: auto;
+  font-family: 'Poppins', Arial, sans-serif;
+  display: flex;
+  padding: 0 376px;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+@media screen and (min-width: 1920px) {
+  .opening {
+    max-width: 1920px;
+    box-sizing: border-box;
+  }
+}

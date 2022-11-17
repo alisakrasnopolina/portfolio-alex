@@ -1,0 +1,8 @@
+.pics {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  max-width: 1760px;
+}

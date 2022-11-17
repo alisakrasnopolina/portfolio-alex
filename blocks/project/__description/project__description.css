@@ -1,4 +1,5 @@
 .project__description {
   display: flex;
   flex-direction: row;
+  max-width: 56%;
 }

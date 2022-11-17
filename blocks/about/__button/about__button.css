@@ -1,0 +1,17 @@
+.about__button {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0em;
+  text-align: left;
+  text-decoration: none;
+  color: #202020;
+  border: 2px solid #202020;
+  width: 192px;
+  height: 62px;
+  border-radius: 30px;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-bottom: 120px;
+}

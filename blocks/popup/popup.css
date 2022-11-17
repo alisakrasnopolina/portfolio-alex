@@ -1,0 +1,12 @@
+.popup {
+  font-family: 'Poppins', Arial, sans-serif;
+  max-width: 1920px;
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, .8);
+  background-size: cover;
+  display: none;
+}

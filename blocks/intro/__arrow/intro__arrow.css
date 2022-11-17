@@ -3,3 +3,11 @@
   bottom: 80px;
   left: 80px;
 }
+
+@media screen and (max-width: 1680px) {
+  .intro__arrow {
+    bottom: 60px;
+    width: 36px;
+    height: 36px;
+  }
+}

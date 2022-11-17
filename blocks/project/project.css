@@ -4,11 +4,16 @@
   margin: auto;
   font-family: 'Poppins', Arial, sans-serif;
   display: flex;
-  padding-left: 376px;
+  padding-left: 20%;
   flex-direction: column;
   justify-content: center;
   position: relative;
+}
 
+@media screen and (max-width: 1680px) {
+  .project {
+    gap: 40px;
+  }
 }
 
 @media screen and (min-width: 1920px) {

@@ -1,0 +1,7 @@
+.opening__paragraph {
+  margin-right: 32px;
+}
+
+.opening__paragraph:last-child {
+  margin-right: 0;
+}
