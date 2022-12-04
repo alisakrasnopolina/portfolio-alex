@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 768px) {
   .popup {
-    background-size: auto 50vh;
+    background-size: auto 60vh;
     background-repeat: no-repeat;
   }
 }
