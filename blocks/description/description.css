@@ -1,4 +1,19 @@
 .description {
- padding: 0 376px 0;
+ padding: 0 19.6% 0;
  font-family: 'Poppins', Arial, sans-serif;
+ margin: auto;
+}
+
+@media screen and (min-width: 1920px) {
+  .description {
+    max-width: 1920px;
+    box-sizing: border-box;
+    padding: 0 376px 0;
+}
+}
+
+@media screen and (max-width: 568px) {
+  .description {
+    padding: 0 16px 0;
+  }
 }

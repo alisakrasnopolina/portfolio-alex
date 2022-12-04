@@ -1,0 +1,43 @@
+.header__burger {
+  display: none;
+}
+
+@media screen and (max-width: 984px) {
+  .header__burger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    z-index: 6;
+  }
+
+  .header__burger::before {
+    content: '';
+    background-color: #010101;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    top: 0;
+  }
+
+  .header__burger::after {
+    content: '';
+    background-color: #010101;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    transition: all 0.2s ease 0s;
+  }
+  .header__burger.active::before {
+    transform: rotate(45deg);  
+    top: 9px;
+  }
+
+  .header__burger.active::after {
+    transform: rotate(-45deg); 
+    bottom: 9px;
+  }
+}

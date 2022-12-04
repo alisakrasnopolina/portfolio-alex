@@ -2,14 +2,21 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/inter.css);
 @import url(../blocks/root/root.css);
+@import url(../blocks/root/_scroll/root_scroll_lock.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__intro/header__intro.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__burger/header__burger.css);
+@import url(../blocks/header/__span/header__span.css);
 @import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__list/header__list.css);
 @import url(../blocks/header/__item/header__item.css);
 @import url(../blocks/header/__link/header__link.css);
-
+@import url(../blocks/header/__menu-list/header__menu-list.css);
+@import url(../blocks/header/__menu-subtitle/header__menu-subtitle.css);
+@import url(../blocks/header/__menu-item/header__menu-item.css);
+@import url(../blocks/header/__menu-link/header__menu-link.css);
 /* about */
 @import url(../blocks/about/about.css);
 @import url(../blocks/about/__arrow/about__arrow.css);
@@ -17,6 +24,7 @@
 @import url(../blocks/about/__paragraph/about__paragraph.css);
 @import url(../blocks/about/__subtitle/about__subtitle.css);
 @import url(../blocks/about/__text/about__text.css);
+@import url(../blocks/about/__text/_spot/about__text_spot_first.css);
 @import url(../blocks/about/__button/about__button.css);
 
 /* thanks */

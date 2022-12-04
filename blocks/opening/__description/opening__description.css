@@ -3,3 +3,16 @@
   flex-direction: row;
   margin-bottom: 80px;
 }
+
+@media screen and (max-width: 1680px) {
+  .opening__description {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .opening__description {
+    margin-bottom: 30px;
+    flex-direction: column;
+  }
+}

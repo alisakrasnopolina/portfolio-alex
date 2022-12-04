@@ -3,7 +3,7 @@
   margin: auto;
   font-family: 'Poppins', Arial, sans-serif;
   display: flex;
-  padding: 0 376px;
+  padding: 0 19.6% 0;
   flex-direction: column;
   justify-content: center;
   position: relative;
@@ -13,5 +13,19 @@
   .opening {
     max-width: 1920px;
     box-sizing: border-box;
+    padding: 0 376px 0;
+  }
+}
+
+@media screen and (max-width: 1680px) {
+  .opening {
+    gap: 60px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .opening {
+    gap: 40px;
+    padding: 0 16px 0;
   }
 }

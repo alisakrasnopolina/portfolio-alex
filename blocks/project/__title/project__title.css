@@ -11,5 +11,33 @@
 @media screen and (max-width: 1680px) {
   .project__title {
     font-size: 68px;
+    max-width: 763px;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .project__title {
+    font-size: 60px;
+    max-width: 670px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .project__title {
+    font-size: 48px;
+    max-width: 544px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .project__title {
+    max-width: 454px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .project__title {
+    font-size: 36px;
+    max-width: 328px;
   }
 }

@@ -4,14 +4,27 @@
   gap: 80px;
   margin: auto;
   font-family: 'Poppins', Arial, sans-serif;
-  padding-left: 376px;
+  padding-left: 19.6%;
   justify-content: center;
   position: relative;
 }
 
 @media screen and (min-width: 1920px) {
-  .opening {
+  .about {
     max-width: 1920px;
     box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 1680px) {
+  .about {
+    gap: 60px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .about {
+    gap: 30px;
+    padding-left: 16px;
   }
 }

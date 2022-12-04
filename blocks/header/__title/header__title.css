@@ -8,8 +8,9 @@
   margin: 0 40px 0 0;
 }
 
-@media screen and (max-width: 1680px) {
+@media screen and (max-width: 568px) {
   .header__title {
     font-size: 20px;
+    margin: 0 0 8px;
   }
 }

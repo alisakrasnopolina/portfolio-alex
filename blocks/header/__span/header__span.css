@@ -1,0 +1,19 @@
+.header__span {
+
+}
+
+@media screen and (max-width: 984px) {
+  .header__span {
+    position: absolute;
+    background-color: #010101;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+    transition: all 0.2s ease 0s;
+  }
+
+  .header__span.active {
+    transform: scale(0);
+  }
+}

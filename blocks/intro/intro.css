@@ -1,13 +1,21 @@
 .intro {
   min-height: calc(100vh - 84px);
+  max-width: 100%;
+  padding-left: 19.6%;
   margin: auto;
   font-family: 'Poppins', Arial, sans-serif;
   background-color: #FFF;
   display: flex;
-  padding-left: 20%;
   flex-direction: column;
   justify-content: center;
   position: relative;
+}
+
+@media screen and (min-width: 1930px) {
+  .intro {
+    max-width: 1920px;
+    box-sizing: border-box;
+  }
 }
 
 @media screen and (max-width: 1680px) {
@@ -16,9 +24,10 @@
   }
 }
 
-@media screen and (min-width: 1920px) {
+
+@media screen and (max-width: 450px) {
   .intro {
-    max-width: 1920px;
-    box-sizing: border-box;
+    padding-left: 16px;
+    min-height: calc(100vh - 57px);
   }
 }

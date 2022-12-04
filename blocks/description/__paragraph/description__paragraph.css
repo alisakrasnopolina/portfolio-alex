@@ -2,9 +2,14 @@
   margin-right: 32px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
 }
 
 .description__paragraph:last-child {
   margin-right: 0;
+}
+
+@media screen and (max-width: 568px) {
+  .description__paragraph {
+    margin: 0 0 30px;
+  }
 }

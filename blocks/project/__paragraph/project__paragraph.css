@@ -1,7 +1,8 @@
 .project__paragraph {
-  margin-right: 32px;
+  margin-right: 16px;
+  max-width: 50%;
 }
 
 .project__paragraph:last-child {
-  margin-right: 0;
+  margin-left: 16px;
 }

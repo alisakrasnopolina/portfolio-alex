@@ -1,7 +1,4 @@
 .popup__description {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
   background: rgba(255, 255, 255, 0.95);
   box-shadow: 0px 0px 40px rgba(32, 32, 32, 0.2);
   color: #202020;
@@ -9,4 +6,16 @@
   align-items: center;
   padding: 60px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .popup__description {
+    width: 100%;
+    background: #FFF;
+    height: 50vh;
+    padding: 24px 20px 150px;
+  }
 }

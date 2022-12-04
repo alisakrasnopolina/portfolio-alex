@@ -13,24 +13,8 @@
   text-decoration: none;
   position: relative;
   z-index: 1;
+  transition: 0.25s;
 }
-.project__button:hover::before{
-  width: 100%;
-  color: black;
- }
-.project__button:before {
-	content:'';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 0;
-	height: 58px;
-	background: rgba(255,255,255,0.3);
-	border-radius: 30px;
-	transition: all 2s ease;
-  z-index: 0;
-}
-
 
 @media screen and (max-width: 1680px) {
   .project__button {
@@ -39,3 +23,12 @@
     height: 60px;
   }
 }
+
+@media screen and (max-width: 1140px) {
+  .project__button {
+    font-size: 14px;
+    width: 186px;
+    height: 58px;
+  }
+}
+

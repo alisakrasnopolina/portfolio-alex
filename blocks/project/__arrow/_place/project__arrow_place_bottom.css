@@ -7,5 +7,20 @@
 @media screen and (max-width: 1680px) {
   .project__arrow_place_bottom {
     bottom: 60px;
+    left: 60px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .project__arrow_place_bottom {
+    bottom: 40px;
+    left: 40px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .project__arrow_place_bottom {
+    bottom: 16px;
+    left: 16px;
   }
 }

@@ -10,15 +10,30 @@
   position: relative;
 }
 
-@media screen and (max-width: 1680px) {
-  .header {
-    padding: 40px 0 0;
-  }
-}
-
 @media screen and (min-width: 1920px) {
   .header {
     max-width: 1760px;
     box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 1680px) {
+  .header {
+    width: calc(100% - 2 * 60px);
+    padding: 40px 0 0;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .header {
+    width: calc(100% - 2 * 40px);
+    padding: 40px 0 0;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .header {
+    width: calc(100% - 2 * 16px);
+    padding: 16px 0 0;
   }
 }

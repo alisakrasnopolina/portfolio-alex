@@ -1,27 +1,30 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Alex's portfolio</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <link rel="stylesheet" href="pages/story-chery.css">
+  <link rel="stylesheet" href="pages/story.css">
 </head>
 <body class="root">
-  <header class="header">
+  <header id="intro" class="header">
     <div class="header__intro">
       <h1 class="header__title">Alexey Krasnopolin</h1>
-      <p class="header__subtitle">UX/UI Designer</p>
+      <p class="header__subtitle">UX/UI & Product Designer</p>
     </div>
-    <nav>
-      <ul class="header__menu">
+    <div class="header__burger">
+      <span class="header__span"></span>
+    </div>
+    <nav class="header__menu">
+      <ul class="header__list">
         <li class="header__item">
-          <a href="#" target="_blank" class="header__link">About me</a>
+          <a href="./about-me.html" class="header__link">About me</a>
         </li>
         <li class="header__item">
-          <a href="#" target="_blank" class="header__link">Linkedin</a>
+          <a href="#" class="header__link">Linkedin</a>
         </li>
         <li class="header__item">
-          <a href="#" target="_blank" class="header__link">nekropolin@gmail.com</a>
+          <a href="#" class="header__link">nekropolin@gmail.com</a>
         </li>
       </ul>
     </nav>
@@ -35,13 +38,12 @@
       <div class="opening__description">
         <div class="opening__paragraph">
           <p class="opening__caption">Issues</p>
-          <p class="opening__text">The first task was to find an approach that would allow the project and all services to be launched in an extremely short time. The second challenge
-            was to overcome the stereotypes and prejudices of customers about the Chinese cars, allowing the brand to compete with the world's leading manufacturers in digital space.</p>
+          <p class="opening__text">The first task was to find an approach that would allow the project and all the services to be launched in an extremely short time. The second challenge
+            was to overcome the stereotypes and prejudices of customers about the Chinese cars, allowing the brand to compete with the world's leading manufacturers in digital space.
         </div>
         <div class="opening__paragraph">
           <p class="opening__caption">Goals</p>
-          <p class="opening__text">Focusing on the client's business objectives and analyzing consumer feedback, we were looking for a solution 
-            that would work to increase sales and user satisfaction at the same time. We needed to classify functional elements and content items in order to provide targeted access scenarios for different user groups.</p>
+          <p class="opening__text">Focusing on the client’s business objectives and analyzing consumer feedback, we were looking for a solution that aimed to increase the sales as well as user satisfaction. We needed to classify functional elements and content items in order to provide targeted access scenarios for different user groups.   
         </div>
       </div>
     </section>
@@ -57,27 +59,92 @@
       <div class="description__wrap">
         <div class="description__paragraph">
           <p class="description__caption">New digital look</p>
-          <p class="description__text">To turn the tide on brand perception, we proposed a radical change in the use of corporate identity, effectively rethinking of core identity for digital environments in the local market.
-             We tried to give the brand a quiet luxury typical of the premium segment.</p>
+          <p class="description__text">To turn the tide on the brand perception, we proposed a radical change in the use of corporate identity, effectively rethinking the core identity for digital environments in the local market. We strived to give the brand a luxury feel typical of the premium segment.</p>
         </div>
         <div class="description__paragraph">
-          <p class="description__text">We decided to apply a strict black and white style, a calm tone that meets the ideas of simplicity and purity. For example, the corporate red, which previously prevailed,
-             received a modest but important role as a signal color for interactive elements.</p>
+          <p class="description__caption description__caption_column_second"></p>
+          <p class="description__text">We decided to apply a strict black and white palette, a neutral undertone that meets the ideas of simplicity and purity. For example, the corporate red, which previously prevailed, received a modest but important role as a signal color for interactive elements.</p>
         </div>
       </div>
     </section>
-    <section class="exit">
-      <a href="index.html#chery" >
-        <img src="./images/arrow__black.svg" alt="arrow logo" class="exit__arrow hover-arrow">
-      </a>
-      <a href="#" target="_blank" class="exit__button">Project Figma File</a>
+    <section class="pics">
+      <img class="pics__pic_col_1" src="./images/Chery-2-1.jpg" alt="Изображение">
+      <img class="pics__pic_col_2" src="./images/chery-2-2.jpg" alt="Изображение">
+      <img class="pics__pic_col_2" src="./images/chery-2-3.jpg" alt="Изображение">
+    </section>
+    <section class="description">
+      <div class="description__wrap">
+        <div class="description__paragraph">
+          <p class="description__caption">Design system</p>
+          <p class="description__text">An important task was to simplify and unify the design in terms 
+            of using technological solutions: simple binding to CMS, adding new widgets and integrating with client services. This required the comprehensive design library of functional and content elements.</p>
+        </div>
+        <div class="description__paragraph">
+          <p class="description__text">An additional feature that we came up with was a system of variable vertical indents. Mathematically calculated and synchronized in size with responsive font table, these gaps made it easy to maintain the visual rhythm of design.</p>
+        </div>
+      </div>
+    </section>
+    <section class="pics">
+      <img class="pics__pic_col_1" src="./images/chery-3-1.jpg" alt="Изображение">
+      <img class="pics__pic_col_2" src="./images/chery-3-2.jpg" alt="Изображение">
+      <img class="pics__pic_col_2" src="./images/chery-3-3.jpg" alt="Изображение">
+    </section>
+    <section class="description">
+      <div class="description__wrap">
+        <div class="description__paragraph">
+          <p class="description__caption">Iterative approach</p>
+          <p class="description__text">After studying the overall plan, we decided to act in short iterations. We started with prioritization and went on to implement design of pages, blocks and widgets, determining the basis for further extension and development at the same time.</p>
+        </div>
+        <div class="description__paragraph">
+          <p class="description__text">First, we created the model range section and pages of most demanded services, as well as the UI of required functional modules. All layouts were designed in four versions, making it easier to adapt them to various devices.</p>
+        </div>
+      </div>
+    </section>
+    <section class="pics">
+      <img class="pics__pic_col_4" src="./images/chery-4-1.jpg" alt="Изображение">
+      <img class="pics__pic_col_4" src="./images/chery-4-2.jpg" alt="Изображение">
+      <img class="pics__pic_col_4" src="./images/chery-4-3.jpg" alt="Изображение">
+      <img class="pics__pic_col_4" src="./images/chery-4-4.jpg" alt="Изображение">
+      <img class="pics__pic_col_1" src="./images/chery-4-5.jpg" alt="Изображение">
+      <img class="pics__pic_col_1" src="./images/chery-4-6.jpg" alt="Изображение">
+    </section>
+    </section>
+    <section class="description">
+      <div class="description__wrap">
+        <div class="description__paragraph">
+          <p class="description__caption">Growth and support</p>
+          <p class="description__text">That stage of the project took about 3 months, including approval and improvements. After the first release, which allowed the client to begin a full-scale campaign to enter the market, the project entered the development stage. We continued to develop the design 
+            of new sections and modules and refine the existing system.</p>
+        </div>
+        <div class="description__paragraph">
+          <p class="description__text">Following the principle of iteration, we updated the decisions made earlier, as well as correcting inaccuracies that are inevitable at the beginning. Along with that our previous solutions allowed us to spread the results as quickly as possible to new client projects, such as a network of dealer sites or an online car showroom.</p>
+        </div>
+      </div>
+    </section>
+    <section class="pics">
+      <img class="pics__pic_col_1" src="./images/chery-5-1.jpg" alt="Изображение">
     </section>
     <section class="thanks">
       <div class="thanks__background thanks__background_place_chery">
         <h2 class="thanks__title">Thanks for watching</h2>
-        <a href="#" target="_blank" class="thanks__button">Next project</a>
+        <a href="./story-cadillac.html" target="_blank" class="thanks__button">Next project</a>
       </div>
     </section>
   </main>
+  <template id="header__items">
+    <ul class="header__menu-list">
+      <h2 class="header__menu-subtitle">Latest stories:</h2>
+      <li class="header__menu-item">
+        <a href="./about-me.html" class="header__menu-link">Chery website & design system</a>
+      </li>
+      <li class="header__menu-item">
+        <a href="./about-me.html" class="header__menu-link">Cadillac buyer's personal account</a>
+      </li>
+      <li class="header__menu-item">
+        <a href="./about-me.html" class="header__menu-link">Mobile app for owners MyMazda 2.0</a>
+      </li>
+    </ul>
+  </template> 
+  <script src="./scripts/story.js"></script>
 </body>
 </html>

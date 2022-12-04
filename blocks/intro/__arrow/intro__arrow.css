@@ -7,7 +7,22 @@
 @media screen and (max-width: 1680px) {
   .intro__arrow {
     bottom: 60px;
+    left: 60px;
     width: 36px;
     height: 36px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .intro__arrow {
+    bottom: 40px;
+    left: 40px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .intro__arrow {
+    bottom: 16px;
+    left: 16px;
   }
 }

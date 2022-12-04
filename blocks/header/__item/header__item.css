@@ -5,3 +5,17 @@
 .header__item:last-child {
   margin-right: 0;
 }
+
+@media screen and (max-width: 984px) {
+  .header__item {
+    margin: 0 0 30px;
+  }
+
+  .header__item:last-child {
+    margin: 0;
+  }
+
+  .header__item:first-child {
+    margin: 101px 0 30px;
+  }
+}

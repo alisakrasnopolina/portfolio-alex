@@ -1,5 +1,35 @@
 .project__description {
   display: flex;
   flex-direction: row;
-  max-width: 56%;
+  max-width: 1020px;
+}
+
+@media screen and (max-width: 1680px) {
+  .project__description {
+    max-width: 763px;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .project__description {
+    max-width: 670px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .project__description {
+    max-width: 544px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .project__description {
+    max-width: 454px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .project__description {
+    max-width: 328px;
+  }
 }

@@ -1,6 +1,35 @@
 .about__arrow {
   position: absolute;
-  top: 143px;
+  top: 140px;
   left: 80px;
   transform: rotate(90deg);
+}
+
+@media screen and (max-width: 1680px) {
+  .about__arrow {
+    top: 102px;
+    left: 60px;
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .about__arrow {
+    top: 94px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .about__arrow {
+    top: 82px;
+    left: 40px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .about__arrow {
+    top: 20px;
+    left: 16px;
+  }
 }

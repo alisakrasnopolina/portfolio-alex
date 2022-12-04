@@ -2,3 +2,9 @@
   color: #fff;
   border: 2px solid #fff;
 }
+
+.project__button_theme_white:hover,
+.project__button_theme_white:focus {
+  box-shadow: inset 215px 0 0 0 rgba(255,255,255);
+  color: #0C0C0B;
+}

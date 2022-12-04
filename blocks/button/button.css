@@ -6,7 +6,7 @@
   letter-spacing: 0em;
   text-align: center;
   color: #202020;
-  background: rgba(100, 134, 221, 0.5) ;
+  background-color: rgba(100, 134, 221, 0.5) ;
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -26,6 +26,28 @@
     height: 150px;
     width: 150px;
     bottom: 60px;
+    right: 60px;
     padding: 53px 42px 59px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .button {
+    font-size: 14px;
+    height: 110px;
+    width: 110px;
+    bottom: 40px;
+    right: 40px;
+    padding: 38px 26px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .button {
+    height: 120px;
+    width: 120px;
+    bottom: 16px;
+    right: 16px;
+    padding: 43px 31px;
   }
 }

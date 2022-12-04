@@ -6,3 +6,15 @@
   text-align: left;
   margin: 0 0 28px;
 }
+
+@media screen and (max-width: 1680px) {
+  .opening__caption {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .opening__caption {
+    font-size: 20px;
+  }
+}

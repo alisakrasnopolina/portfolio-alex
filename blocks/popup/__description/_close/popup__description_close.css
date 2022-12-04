@@ -1,0 +1,4 @@
+.popup__description_close {
+  visibility: hidden;
+  opacity: 0;
+}

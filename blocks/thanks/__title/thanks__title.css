@@ -3,8 +3,34 @@
   font-weight: 700;
   line-height: 1;
   letter-spacing: -0.02em;
-  text-align: left;
+  text-align: center;
   margin: 0;
   color: #fff;
   max-width: 576px;
+}
+
+@media screen and (max-width: 1680px) {
+  .thanks__title {
+    font-size: 68px;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .thanks__title {
+    font-size: 60px;
+    max-width: 398px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .thanks__title {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .thanks__title {
+    font-size: 36px;
+    max-width: 220px;
+  }
 }

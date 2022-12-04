@@ -7,3 +7,29 @@
   max-width: 872px;
   margin: 40px 0 0;
 }
+
+@media screen and (max-width: 1680px) {
+  .opening__title {
+    font-size: 68px;
+    max-width: 632px;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .opening__title {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .opening__title {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .opening__title {
+    font-size: 36px;
+    max-width: 328px;
+  }
+}

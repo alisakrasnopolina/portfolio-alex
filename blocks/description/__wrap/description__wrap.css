@@ -1,5 +1,18 @@
 .description__wrap {
   display: flex;
   flex-direction: row;
-  margin: 120px 0 80px;
+  margin: 0 0 80px;
+}
+
+@media screen and (max-width: 1680px) {
+  .description__wrap {
+    margin: 0 0 60px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .description__wrap {
+    margin-bottom: 30px;
+    flex-direction: column;
+  }
 }

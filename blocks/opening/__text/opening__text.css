@@ -1,8 +1,15 @@
 .opening__text {
+  font-family: 'Lato', Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.6;
   letter-spacing: 0em;
   text-align: left;
   margin: 0;
+}
+
+@media screen and (max-width: 1140px) {
+  .opening__text {
+    font-size: 14px;
+  }
 }

@@ -1,11 +1,38 @@
 .about__text {
+  font-family: 'Lato', Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.6;
   letter-spacing: 0em;
   text-align: left;
   color: #202020;
-  max-width: 38%;
+  max-width: 55%;
   margin: 28px 0 0;
 }
 
+@media screen and (max-width: 1680px) {
+  .about__text {
+    max-width: 60%;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .about__text {
+    font-size: 14px;
+    margin: 16px 0 0;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .about__text {
+    max-width: 75%;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .about__text {
+    font-size: 14px;
+    max-width: 92%;
+    margin: 16px 0 0;
+  }
+}

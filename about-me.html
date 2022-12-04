@@ -8,15 +8,18 @@
 </head>
 <body class="root">
   <a name="intro"></a>
-  <header class="header">
+  <header id="intro" class="header">
     <div class="header__intro">
       <h1 class="header__title">Alexey Krasnopolin</h1>
-      <p class="header__subtitle">UX/UI Designer</p>
+      <p class="header__subtitle">UX/UI & Product Designer</p>
     </div>
-    <nav>
-      <ul class="header__menu">
+    <div class="header__burger">
+      <span class="header__span"></span>
+    </div>
+    <nav class="header__menu">
+      <ul class="header__list">
         <li class="header__item">
-          <a href="#" class="header__link">About me</a>
+          <a href="./about-me.html" class="header__link">About me</a>
         </li>
         <li class="header__item">
           <a href="#" class="header__link">Linkedin</a>
@@ -33,9 +36,10 @@
         <img src="./images/arrow__black.svg" alt="arrow logo" class="about__arrow hover-arrow">
       </a>
       <h2 class="about__title">About me</h2>
-      <p class="about__text">I have been working in design since 1998. My 24-year career as a designer began when the Internet was still in its infancy,
-         and even then I decided that web and interface design would be my profession. During my professional life I have also been involved in graphic design,
-         logo and brand identity creation, interactive design, advertising, and illustrations, but my main passion has been interfaces.</p>
+      <p class="about__text about__text_spot_first">I have been working in design since 1998. My career path, spanning over 2 decades,
+         started when the Internet was still in its infancy, and even then, I knew that web and interface design would be something I wanted to pursue professionally.
+         Over the years I have gained extensive experience in graphic design, logo and brand identity creation,
+          interactive design, advertising, and illustrations, however my main interest has always been gravitating towards interfaces.</p>
       <div class="about__paragraph">
         <p class="about__subtitle">Recent history</p>
         <p class="about__text">For the last 7 years I have been working at Perx, where I lead the design team as Head of Design. At Perx we create unique digital services for the world's leading car manufacturers and dealer networks, helping our clients to become leaders in digital area.
@@ -65,10 +69,25 @@
     </section>
     <section class="thanks">
       <div class="thanks__background thanks__background_place_about-me">
-        <h2 class="thanks__title">Take a look at my works</h2>
+        <h2 class="thanks__title">Take a look at&nbsp;my works</h2>
         <a href="#" target="_blank" class="thanks__button thanks__button_place_about-me">Back to home</a>
       </div>
     </section>
   </main>
+  <template id="header__items">
+    <ul class="header__menu-list">
+      <h2 class="header__menu-subtitle">Latest stories:</h2>
+      <li class="header__menu-item">
+        <a href="./about-me.html" class="header__menu-link">Chery website & design system</a>
+      </li>
+      <li class="header__menu-item">
+        <a href="./about-me.html" class="header__menu-link">Cadillac buyer's personal account</a>
+      </li>
+      <li class="header__menu-item">
+        <a href="./about-me.html" class="header__menu-link">Mobile app for owners MyMazda 2.0</a>
+      </li>
+    </ul>
+  </template> 
+  <script src="./scripts/story.js"></script>
 </body>
 </html>

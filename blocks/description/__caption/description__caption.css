@@ -1,8 +1,20 @@
-.description__caption{
+.description__caption {
   font-size: 36px;
   font-weight: 700;
   line-height: 1;
   letter-spacing: 0em;
   text-align: left;
   margin: 0 0 28px;
+}
+
+@media screen and (max-width: 1680px) {
+  .description__caption {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .description__caption {
+    font-size: 20px;
+  }
 }

@@ -1,0 +1,20 @@
+.popup__show-image {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  bottom: 24px;
+  right: 96px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  background-image: url(../../../images/icon-paper-popup.svg);
+  background-size: contain;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .popup__show-image {
+    display: none;
+  }
+}
+

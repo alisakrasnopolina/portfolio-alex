@@ -5,3 +5,10 @@
 .opening__paragraph:last-child {
   margin-right: 0;
 }
+
+
+@media screen and (max-width: 568px) {
+  .opening__paragraph {
+    margin: 0 0 30px;
+  }
+}

@@ -7,3 +7,15 @@
   margin: 0;
   color: #202020;
 }
+
+@media screen and (max-width: 1680px) {
+  .about__subtitle {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .about__subtitle {
+    font-size: 20px;
+  }
+}

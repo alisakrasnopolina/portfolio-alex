@@ -2,3 +2,9 @@
   color: #4B4B4B;
   border: 2px solid #4B4B4B;
 }
+
+.project__button_theme_grey:hover,
+.project__button_theme_grey:focus {
+  box-shadow: inset 215px 0 0 0 #4B4B4B;
+  color: #fff;
+}

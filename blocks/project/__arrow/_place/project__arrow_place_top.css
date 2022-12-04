@@ -8,5 +8,20 @@
 @media screen and (max-width: 1680px) {
   .project__arrow_place_top {
     top: 60px;
+    left: 60px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .project__arrow_place_top {
+    top: 40px;
+    left: 40px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .project__arrow_place_top {
+    top: 16px;
+    left: 16px;
   }
 }

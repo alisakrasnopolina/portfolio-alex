@@ -4,10 +4,17 @@
   margin: auto;
   font-family: 'Poppins', Arial, sans-serif;
   display: flex;
-  padding-left: 20%;
+  padding-left: 19.6%;
   flex-direction: column;
   justify-content: center;
   position: relative;
+}
+
+@media screen and (min-width: 1920px) {
+  .project {
+    max-width: 1920px;
+    box-sizing: border-box;
+  }
 }
 
 @media screen and (max-width: 1680px) {
@@ -16,9 +23,8 @@
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (max-width: 450px) {
   .project {
-    max-width: 1920px;
-    box-sizing: border-box;
+    padding-left: 16px;
   }
 }
